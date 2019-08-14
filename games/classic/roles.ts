@@ -333,8 +333,8 @@ export namespace Roles {
     abilities: [{ ability: Abilities.heal }],
     passives: [],
   };
-  export const sherrif: Role = {
-    roleName: "sherrif",
+  export const sheriff: Role = {
+    roleName: "sheriff",
     alignment: Alignment.town,
     winCondition: WinConditions.town,
     abilities: [{ ability: Abilities.getAlignment }],
@@ -434,7 +434,7 @@ export const priorities = [
   Roles.godfather,
   Roles.mafioso,
   Roles.vigilante,
-  Roles.sherrif,
+  Roles.sheriff,
   Roles.mafiaVanilla,
   Roles.townie,
   Roles.medium,
